@@ -24,6 +24,6 @@ public class DriverFactory {
 
     public void closeBrowser() throws InterruptedException {
         Thread.sleep(5000);
-        driver.quit();
+        //driver.quit();
     }
 }
